@@ -1,0 +1,7 @@
+.select-option-container{
+    .select-option-buttons-container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
