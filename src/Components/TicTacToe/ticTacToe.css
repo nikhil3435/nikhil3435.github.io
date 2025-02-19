@@ -26,4 +26,10 @@
             }
         }
     }
+
+    .tic-tac-toe-winner-text{
+        font-size: 2rem;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: green;
+    }
 }
