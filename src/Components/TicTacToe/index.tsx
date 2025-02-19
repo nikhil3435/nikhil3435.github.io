@@ -33,7 +33,7 @@ const TicTacToe = () => {
             <div className='tic-tac-tow-board' >
                 {board.map((row: any[],rowIndex: number)=>
                     <div className='tic-tac-tow-row'>
-                    {row.map((cell,colIndex)=>(
+                    {row.map((_cell,colIndex)=>(
                         <button className='tic-tac-toe-cell'  key={`${rowIndex}-${colIndex}`} onClick={()=>boardClick(rowIndex,colIndex)}>
                             {board[rowIndex][colIndex]? board[rowIndex][colIndex] : ''}
                         </button>
