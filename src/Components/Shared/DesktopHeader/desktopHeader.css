@@ -5,8 +5,12 @@
     display: flex;
     align-items: center;
 
+    .desktop-header-back{
+        padding-left: 1.5rem;
+        font-size: 2rem;
+    }
     .desktop-header{
-        padding-left: 3rem;
+        padding-left: 2rem;
         font-size: 1.5rem;
         color: #000;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;

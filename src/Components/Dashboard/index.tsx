@@ -17,6 +17,12 @@ const Dashboard = () => {
             <div>
                 Todo App
             </div>
+            <div onClick={() => navigate('/chess')} >
+                Chess
+            </div>
+            <div onClick={() => navigate('/loaders')} >
+                Loaders
+            </div>
         </div>
     )
 }

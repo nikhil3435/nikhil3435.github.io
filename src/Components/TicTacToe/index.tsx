@@ -40,7 +40,7 @@ const TicTacToe = () => {
         newBoard[row][col]= currentPlayer;
         setBoard(newBoard); 
         if(checkWinner(newBoard)){
-            setWinnerText(`Congarts!. ${currentPlayer} player is winner`)
+            setWinnerText(`Congrats!. ${currentPlayer} player is winner`)
         }  
         setCurrentPlayer(currentPlayer==='X'? 'O':'X');
     }

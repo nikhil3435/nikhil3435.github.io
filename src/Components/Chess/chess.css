@@ -1,0 +1,13 @@
+.chess-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+    /* border: 2px solid #000; */
+}
+  
+.board-row {
+    display: flex;
+    
+}
